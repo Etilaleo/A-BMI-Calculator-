@@ -1,6 +1,5 @@
 import 'package:bmi_calculator/widgets/left.dart';
 import 'package:flutter/material.dart';
-
 import '../widgets/right.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -21,10 +20,11 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
+          leading: const Icon(Icons.menu, color: Colors.black),
           title: const Text(
             "BMI Calculator",
             style: TextStyle(
-                color: Colors.black, fontSize: 25, fontWeight: FontWeight.w500),
+                color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),
           ),
           backgroundColor: Colors.yellow,
           centerTitle: true,
