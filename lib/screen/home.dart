@@ -44,23 +44,23 @@ class _HomeScreenState extends State<HomeScreen> {
                     width: 130,
                     child: TextField(
                       textAlign: TextAlign.center,
-                      style: TextStyle(
+                      style: const TextStyle(
                           fontWeight: FontWeight.w500,
                           fontSize: 35,
-                          color: Colors.yellow.shade200),
+                          color: Colors.yellow),
                       onChanged: (values) {
                         setState(() {
                           height = double.parse(values);
                         });
                       },
                       keyboardType: TextInputType.number,
-                      decoration: const InputDecoration(
+                      decoration: InputDecoration(
                         border: InputBorder.none,
                         hintText: "Height",
                         hintStyle: TextStyle(
                           fontSize: 35,
                           fontWeight: FontWeight.w500,
-                          color: Colors.yellowAccent,
+                          color: Colors.yellow.shade100,
                         ),
                       ),
                     ),
@@ -69,23 +69,23 @@ class _HomeScreenState extends State<HomeScreen> {
                     width: 130,
                     child: TextField(
                       textAlign: TextAlign.center,
-                      style: TextStyle(
+                      style: const TextStyle(
                           fontWeight: FontWeight.w500,
                           fontSize: 35,
-                          color: Colors.yellow.shade200),
+                          color: Colors.yellow),
                       onChanged: (values) {
                         setState(() {
                           weight = double.parse(values);
                         });
                       },
                       keyboardType: TextInputType.number,
-                      decoration: const InputDecoration(
+                      decoration: InputDecoration(
                         border: InputBorder.none,
                         hintText: "Weight",
                         hintStyle: TextStyle(
                           fontSize: 35,
                           fontWeight: FontWeight.w500,
-                          color: Colors.yellowAccent,
+                          color: Colors.yellow.shade100,
                         ),
                       ),
                     ),
