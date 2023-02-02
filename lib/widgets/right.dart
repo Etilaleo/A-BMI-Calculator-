@@ -19,7 +19,7 @@ class RightScreen extends StatelessWidget {
                 topLeft: Radius.circular(20),
                 bottomLeft: Radius.circular(20),
               ),
-              color: Colors.yellowAccent
+              color: Colors.yellow
           ),
         ),
       ],

@@ -19,7 +19,7 @@ class LeftScreen extends StatelessWidget {
               topRight: Radius.circular(20),
               bottomRight: Radius.circular(20),
             ),
-            color: Colors.yellowAccent
+            color: Colors.yellow
           ),
         ),
       ],
