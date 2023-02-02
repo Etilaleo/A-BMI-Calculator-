@@ -16,8 +16,8 @@ class RightScreen extends StatelessWidget {
           //Now we decorate the container
           decoration: const BoxDecoration(
               borderRadius: BorderRadius.only(
-                topRight: Radius.circular(20),
-                bottomRight: Radius.circular(20),
+                topLeft: Radius.circular(20),
+                bottomLeft: Radius.circular(20),
               ),
               color: Colors.yellowAccent
           ),
