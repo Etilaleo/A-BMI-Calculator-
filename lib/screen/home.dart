@@ -43,6 +43,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   SizedBox(
                     width: 130,
                     child: TextField(
+                      cursorColor: Colors.yellow,
                       textAlign: TextAlign.center,
                       style: const TextStyle(
                           fontWeight: FontWeight.w500,
@@ -68,6 +69,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   SizedBox(
                     width: 130,
                     child: TextField(
+                      cursorColor: Colors.yellow,
                       textAlign: TextAlign.center,
                       style: const TextStyle(
                           fontWeight: FontWeight.w500,
