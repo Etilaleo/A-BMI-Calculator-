@@ -108,7 +108,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     } else if (bmiResult >= 18.5 && bmiResult <= 25) {
                       textBodyWeight = "Your body weight is normal.";
                     } else {
-                      textBodyWeight = "You're over weight.";
+                      textBodyWeight = "You're under weight.";
                     }
                   });
                 },
